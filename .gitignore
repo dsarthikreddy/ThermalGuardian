@@ -1,0 +1,15 @@
+# MATLAB
+*.asv
+*.m~
+*.mex*
+slprj/
+*.autosave
+
+# Generated output
+ThermalGuardian_dashboard.png
+ThermalGuardian_engineering.png
+guardian_constants.h
+
+# OS
+.DS_Store
+Thumbs.db
