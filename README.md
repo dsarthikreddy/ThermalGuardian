@@ -35,7 +35,7 @@ ThermalGuardian
 
 That's it. MATLAB R2017b or newer. Nothing else to install.
 
-The run takes about 10 seconds and opens **two figures**, then prints a plain-English report and a 30-second interview pitch.
+The run takes about 10 seconds, opens **two figures**, and prints a plain-English report.
 
 ---
 
@@ -53,7 +53,7 @@ Three boards are simulated side by side:
 
 ## How to read the graphs
 
-**Figure 1 - the simple view** (a 5th-class student can read this):
+**Figure 1 - the simple view:**
 
 | Panel | What you are looking at |
 |---|---|
@@ -137,14 +137,6 @@ Running it also creates:
 - `ThermalGuardian_dashboard.png` - the simple figure
 - `ThermalGuardian_engineering.png` - the engineering figure
 - `guardian_constants.h` - the C firmware header
-
----
-
-## What to say in an interview
-
-> "I built a digital twin of a power-strip PCB in MATLAB. It models 2-D heat flow with resistance feedback, a real sensor chain with electrical glitches, a Kalman filter that I also wrote in integer-only maths for a chip without a floating-point unit, CUSUM fault detection, a time-to-danger predictor, and a safety state machine. In closed-loop tests it cut power before the board reached danger, with zero false alarms on a healthy board."
-
-Be first to say the numbers are representative and would be calibrated with a thermal camera. Saying that openly makes the project **more** credible, not less.
 
 ---
 
