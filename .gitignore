@@ -6,8 +6,9 @@ slprj/
 *.autosave
 
 # Generated output
-ThermalGuardian_dashboard.png
-ThermalGuardian_engineering.png
+ThermalGuardian_1_dashboard.png
+ThermalGuardian_2_engineering.png
+ThermalGuardian_3_random_houses.png
 guardian_constants.h
 
 # OS
